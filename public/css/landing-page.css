@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Public+Sans&family=Rubik:wght@700&display=swap');
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Public Sans', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
+:root{
+    --backgroundColor: #1D1D1D;
+    --btnColor: #B1291F;
+    --textColor: #FFFFFF;
+}
+
+.landing-page, .pages-navigation, .logo-container, .page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.landing-page{
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.logo-image{
+    width: 400px;
+}
+
+.logo-caption{
+    align-self: baseline;
+}
+
+.pages-navigation{
+    margin-top: 5vh;
+}
+
+.page-container{
+    max-width: 90vw;
+    width: 400px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+@media screen and (min-width: 1260px) {
+    .landing-page{
+        width: 65vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        align-self: baseline;
+    }
+
+    .logo-container{
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .pages-navigation{
+        height: 400px;
+        width: fit-content;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
+    .page-container h1, .page-container h4{
+        margin: 0
+    }
+}
