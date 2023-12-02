@@ -21,10 +21,25 @@ font-family: 'Rubik', sans-serif; */
 .landing-page{
     width: fit-content;
     margin-bottom: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
-.logo-image{
-    width: 400px;
+.logo, .landing-page p, .landing-page h1{
+    width: 350px;
+}
+
+.landing-page h1{
+    font-size: 28px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    text-align: left;
 }
 
 .logo-caption{
@@ -51,6 +66,7 @@ font-family: 'Rubik', sans-serif; */
 
     .logo{
         align-self: baseline;
+        width: 500px;
     }
 
     .logo-container{
